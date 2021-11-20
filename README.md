@@ -1,4 +1,4 @@
-This is the code for the paper: "Boosting The Performance of Semi Supervised Learning with Unsupervised Clustering".
+This is the code for the paper: ["Boosting The Performance of Semi Supervised Learning with Unsupervised Clustering".](https://arxiv.org/pdf/2012.00504.pdf)
 
 To run the code, it is first recommended to create a new virtual environment and install all packages found in the attached requirements.txt file:
 
