@@ -8,6 +8,7 @@ To run the code, it is first recommended to create a new virtual environment and
     
 In the scripts folder, all the commands for running the paper's experiments can be found.  
 For evaluation, the evaluation/evaluate.py can be used. All the different options are specified in the options.py file. For example, evaluating a model with its exponential moving average weights can be done with the command:
+
     python3 evaluation/evaluate.py --ckpt models/model.ckpt --ema
     
 By default, the program uses all the gpus available. If specific gpus are desired, this can be requested with the --lab_gpu option. All desired gpus numbers need to be specified with a comma separator between them. 
